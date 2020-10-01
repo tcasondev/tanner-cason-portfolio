@@ -17,23 +17,23 @@
   background-color: rgb(210, 234, 241);
  
 }
-
+/*set link psuedos in navigation*/
 .navi a:link {color: black; text-decoration: none;}
 .navi a:visited {color: black; text-decoration: none;}
 .navi a:hover {color: rgba(0, 0, 0, 0.863); text-decoration: underline; font-weight: bolder;}
-.navi a:lactiveink {color: rgba(0, 0, 0, 0.863); text-decoration: underline;}
+.navi a:activeink {color: rgba(0, 0, 0, 0.863); text-decoration: underline;}
 
  a:link {color: black; text-decoration: underline;}
  a:visited {color: black; text-decoration: none;}
  a:hover {color: rgba(0, 0, 0, 0.863); text-decoration: none; font-weight: bolder;}
- a:lactiveink {color: rgba(0, 0, 0, 0.863); text-decoration: underline;}
+ a:activeink {color: rgba(0, 0, 0, 0.863); text-decoration: underline;}
 
-
+/*for header*/
 .top-round{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-
+/*for footer*/
 .btm-round{
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
