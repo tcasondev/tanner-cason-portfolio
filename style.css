@@ -17,7 +17,58 @@
   margin: 10px;
 }
 
-@media all and (min-width: 800px) {
+.book2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+@media all and (max-width: 600px){
+.book2 img{
+  display: none;
+}
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+footer nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer nav ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+}
+
+@media all and (min-width: 600px) {
 
   .bookshelf{
     display: flex;
@@ -27,6 +78,8 @@
   .bookshelf2{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px;
   }
   
 .book2 img {
@@ -36,6 +89,7 @@
 .book2 {
   padding-left: 10px;
   padding-right: 10px;
+  margin: 50px;
   text-align: center;
 }
 
@@ -43,21 +97,76 @@
     padding-left: 200px;
     padding-right: 200px;
   }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  
+  }
+
+  header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 75px;
+    list-style: none;
+  }
+
+  header nav ul li{
+    text-decoration: none;
+    margin: 0 20px 0 0;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  footer nav{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  footer nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+
+  footer nav ul li{
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    
+  
+}
+
 }
 
 .navi{
-  text-align: right;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  /*text-align: right;*/
   padding-right: 15px;
-  word-spacing: 5px;
+  word-spacing: 25px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
-  vertical-align: center;
+  /*vertical-align: center;*/
   height: auto;
 }
+
+
+
+
 
 .dark-bg{
   background-color: slategrey;
   border-color: rgba(0, 0, 0, 0.863);
+  width: 100%;
 }
 
 .light-bg{
