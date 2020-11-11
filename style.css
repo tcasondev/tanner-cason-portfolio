@@ -1,6 +1,7 @@
 .bookshelf{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .bookshelf2{
@@ -33,7 +34,9 @@
 header{
   display: flex;
   flex-direction: column;
-  
+  justify-self: center;
+  justify-content: center;
+  width: 100%;
 }
 
 header nav{
@@ -52,7 +55,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+  justify-self: center;
 }
 
 footer nav{
@@ -151,7 +154,7 @@ footer nav ul{
   justify-content: right;
   flex-direction: row;
   /*text-align: right;*/
-  padding-right: 15px;
+  
   word-spacing: 25px;
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
@@ -166,7 +169,7 @@ footer nav ul{
 .dark-bg{
   background-color: slategrey;
   border-color: rgba(0, 0, 0, 0.863);
-  width: 100%;
+  
 }
 
 .light-bg{
@@ -203,8 +206,8 @@ footer nav ul{
   padding-top: 20px;
 }
 
-.pdf img{
-  
+.pdf{
+  margin-left: 50px;
 }
 
 h1{
