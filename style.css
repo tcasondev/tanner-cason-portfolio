@@ -71,6 +71,15 @@ footer nav ul{
   justify-content: center;
 }
 
+.col-center{
+  text-align: center;
+  
+}
+
+.col-center ul{
+  list-style: none;
+}
+
 @media all and (min-width: 600px) {
 
   .bookshelf{
@@ -147,6 +156,11 @@ footer nav ul{
   
 }
 
+.pdf{
+  margin-left: 50px;
+  max-width: fit-content;
+}
+
 }
 
 .navi{
@@ -206,9 +220,7 @@ footer nav ul{
   padding-top: 20px;
 }
 
-.pdf{
-  margin-left: 50px;
-}
+
 
 h1{
   font-family: 'Courier New', Courier, monospace;
