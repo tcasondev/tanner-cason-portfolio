@@ -1,0 +1,257 @@
+.bookshelf{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bookshelf2{
+  display: flex;
+  flex-direction: column;
+}
+
+.book img {
+  width: 100%;
+}
+
+.book {
+  
+  margin: 10px;
+}
+
+.book2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+@media all and (max-width: 600px){
+.book2 img{
+  display: none;
+}
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header nav{
+  display: flex;
+  flex-direction: row;
+}
+
+header nav ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
+
+footer nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer nav ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  justify-content: center;
+}
+
+.col-center{
+  text-align: center;
+  
+}
+
+.col-center ul{
+  list-style: none;
+}
+
+@media all and (min-width: 600px) {
+
+  .bookshelf{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bookshelf2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px;
+  }
+  
+.book2 img {
+  width: 100%;
+}
+
+.book2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 50px;
+  text-align: center;
+}
+
+  .book {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  
+  }
+
+  header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 75px;
+    list-style: none;
+  }
+
+  header nav ul li{
+    text-decoration: none;
+    margin: 0 20px 0 0;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  footer nav{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  footer nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+  }
+
+  footer nav ul li{
+    text-decoration: none;
+    margin: 0 20px 0 0;
+    
+  
+}
+
+.pdf{
+  margin-left: 50px;
+  max-width: fit-content;
+}
+
+}
+
+.navi{
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+  /*text-align: right;*/
+  
+  word-spacing: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  /*vertical-align: center;*/
+  height: auto;
+}
+
+
+
+
+
+.dark-bg{
+  background-color: slategrey;
+  border-color: rgba(0, 0, 0, 0.863);
+  
+}
+
+.light-bg{
+  background-color: rgb(210, 234, 241);
+}
+/*set link psuedos in navigation*/
+.navi a:link {color: black; text-decoration: none;}
+.navi a:visited {color: black; text-decoration: none;}
+.navi a:hover {color: rgba(0, 0, 0, 0.863); text-decoration: underline; font-weight: bolder;}
+.navi a:activeink {color: rgba(0, 0, 0, 0.863); text-decoration: underline;}
+
+ a:link {color: black; text-decoration: underline;}
+ a:visited {color: black; text-decoration: none;}
+ a:hover {color: rgba(0, 0, 0, 0.863); text-decoration: none; font-weight: bolder;}
+ a:activeink {color: rgba(0, 0, 0, 0.863); text-decoration: underline;}
+
+/*for header*/
+.top-round{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+/*for footer*/
+.btm-round{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* used for header and footer after update*/
+.round{
+  border-radius: 10px;
+}
+
+.img{
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bolder;
+  margin: 15px;
+}
+
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+ul{
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
